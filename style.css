@@ -1,0 +1,194 @@
+b/* General */
+body {
+  font-family: Times New Roman;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+/* Header */
+.header{
+  color: rgb(8, 8, 8);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-align: center;
+  background: rgb(245, 171, 82);
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.grid{
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 5px;
+ max-width: 100%;
+ padding: 5px;
+ align-items: center;
+}
+
+.card{
+  background-color: rgb(165, 179, 174);
+  border: 20px;
+  padding: 10px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  width: 70%;  
+  margin: auto ;
+}
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgb(122, 93, 54);
+}
+.container {
+ display: flex;
+ width: 100%;
+ max-width: 250%;
+ height: 280px;
+ width: 300px;
+ font-size: 80px;
+}
+
+.category{
+  color: rgb(8, 8, 8);
+  margin-left: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-align: center;
+  background: rgb(219, 174, 193);
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+.salad{
+  float: right;
+  margin-right: 35px;
+}
+.dessert {
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 0px;
+  font-size: 100px;
+
+  font-family: times new roman;
+  color: hotpink;
+  text-shadow:
+    -2px -2px 5px brown,
+    2px -2px  5px brown,
+    -2px 2px 5px  brown,
+    2px 2px 5px brown;
+  line-height: 1;
+  
+}
+.price{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 90px;
+  margin-left: 35px;
+  color: blue;
+}
+.ingredients{
+  background: bisque;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  text-indent: 10px;
+  width: 70%;
+  font-family: times new roman;
+  color: brown ;
+  margin-left: 35px;
+  text-shadow: 2px 2px 4px green;
+  font-size: 45px;
+}
+
+.equipment{
+  background: bisque;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  text-indent: 10px;
+  width: 100%;
+  font-family: times new roman;
+  color: brown ;
+  margin-right: 5px;
+  text-shadow: 2px 2px 4px green;
+  font-size: 45px;
+  text-align: left;
+}
+.procedure{
+  background: bisque;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  text-indent: 10px;
+  width: 100%;
+  font-family: times new roman;
+  color: brown ;
+  margin-left: 35px;
+  text-shadow: 2px 2px 4px green;
+  font-size: 45px;
+}
+
+.steps{
+  font-family: times new roman;
+  font-size: 55px;
+  text-align: left;
+  background: lightcyan;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 100%;
+  margin-left: 35px;
+}
+
+.items{
+  font-family: times new roman;
+  font-size: 55px;
+  text-align: left;
+  background: lightcyan;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 70%;
+  margin-left: 40px;
+}
+.needs{
+  font-family: times new roman;
+  font-size: 55px;
+  text-align: left;
+  background: lightcyan;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 100%;
+  margin-left: 40px;
+}
+
+.dishes{
+  font-family: times new roman;
+  text-align: center;
+  background-color: antiquewhite;
+  font-size: 45px;
+  transform: translate(0%, -10%);
+  margin-bottom: 10px;
+}
+.salads {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+.salads img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.footer{ 
+  background: grey;
+  color: aliceblue;
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+}
